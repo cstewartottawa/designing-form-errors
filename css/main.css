@@ -8,18 +8,18 @@ html {
 
 .is-validated input:invalid,
 .is-validated input[type="checkbox"]:invalid + label::before {
-  border-color: #f33;
+  border-color: #8989ff;
 }
 
 .error-message {
   display: none;
-  background-color: #fee;
-  color: #c33;
+  background-color: #f78a27;
+  color: #fff;
 }
 
 .error-message-highlighted {
-  background-color: #c33;
-  color: #fff;
+  background-color: #ccf;
+  color: #003;
 }
 
 .is-validated > .error-message:first-child,
